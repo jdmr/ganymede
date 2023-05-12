@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76F148764DDB5F47B0FCE82D /* Pods_ganymede.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFDAF4FEE24D1B278D9E1CE /* Pods_ganymede.framework */; };
+		CCFDDD4FA88FA48A7E778CFD /* Pods_ganymedeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED88F62EDA0583B9FCE36630 /* Pods_ganymedeTests.framework */; };
+		CF9D222F25B25F66750F3B36 /* Pods_ganymede_ganymedeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A56B15490099AE0A6CA782 /* Pods_ganymede_ganymedeUITests.framework */; };
 		D139E6B32A0E7698008D5231 /* ganymedeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D139E6B22A0E7698008D5231 /* ganymedeApp.swift */; };
 		D139E6B52A0E7698008D5231 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D139E6B42A0E7698008D5231 /* ContentView.swift */; };
 		D139E6B72A0E7699008D5231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D139E6B62A0E7699008D5231 /* Assets.xcassets */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12A56B15490099AE0A6CA782 /* Pods_ganymede_ganymedeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ganymede_ganymedeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF8FD5906CDA714BBAF4689 /* Pods-ganymede.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ganymede.release.xcconfig"; path = "Target Support Files/Pods-ganymede/Pods-ganymede.release.xcconfig"; sourceTree = "<group>"; };
+		4EA598547287A3848158F4A2 /* Pods-ganymede-ganymedeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ganymede-ganymedeUITests.release.xcconfig"; path = "Target Support Files/Pods-ganymede-ganymedeUITests/Pods-ganymede-ganymedeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66E02AE9E65F1DB719760BCF /* Pods-ganymedeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ganymedeTests.release.xcconfig"; path = "Target Support Files/Pods-ganymedeTests/Pods-ganymedeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6FFDAF4FEE24D1B278D9E1CE /* Pods_ganymede.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ganymede.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCDF89C0227154EFD0E61F6 /* Pods-ganymedeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ganymedeTests.debug.xcconfig"; path = "Target Support Files/Pods-ganymedeTests/Pods-ganymedeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A59EB8269B936F6FF8C3390F /* Pods-ganymede.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ganymede.debug.xcconfig"; path = "Target Support Files/Pods-ganymede/Pods-ganymede.debug.xcconfig"; sourceTree = "<group>"; };
+		A8700DE31F2B2CFD9C63574D /* Pods-ganymede-ganymedeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ganymede-ganymedeUITests.debug.xcconfig"; path = "Target Support Files/Pods-ganymede-ganymedeUITests/Pods-ganymede-ganymedeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D139E6AF2A0E7698008D5231 /* ganymede.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ganymede.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D139E6B22A0E7698008D5231 /* ganymedeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ganymedeApp.swift; sourceTree = "<group>"; };
 		D139E6B42A0E7698008D5231 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,7 @@
 		D139E6C92A0E7699008D5231 /* ganymedeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ganymedeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D139E6CD2A0E7699008D5231 /* ganymedeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ganymedeUITests.swift; sourceTree = "<group>"; };
 		D139E6CF2A0E7699008D5231 /* ganymedeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ganymedeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED88F62EDA0583B9FCE36630 /* Pods_ganymedeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ganymedeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F148764DDB5F47B0FCE82D /* Pods_ganymede.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFDDD4FA88FA48A7E778CFD /* Pods_ganymedeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +79,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9D222F25B25F66750F3B36 /* Pods_ganymede_ganymedeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0918E087F6F764C96EF966F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FFDAF4FEE24D1B278D9E1CE /* Pods_ganymede.framework */,
+				12A56B15490099AE0A6CA782 /* Pods_ganymede_ganymedeUITests.framework */,
+				ED88F62EDA0583B9FCE36630 /* Pods_ganymedeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D139E6A62A0E7698008D5231 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +103,8 @@
 				D139E6C22A0E7699008D5231 /* ganymedeTests */,
 				D139E6CC2A0E7699008D5231 /* ganymedeUITests */,
 				D139E6B02A0E7698008D5231 /* Products */,
+				D757BFA09162B742FAF3497E /* Pods */,
+				B0918E087F6F764C96EF966F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,19 @@
 			path = ganymedeUITests;
 			sourceTree = "<group>";
 		};
+		D757BFA09162B742FAF3497E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A59EB8269B936F6FF8C3390F /* Pods-ganymede.debug.xcconfig */,
+				1BF8FD5906CDA714BBAF4689 /* Pods-ganymede.release.xcconfig */,
+				A8700DE31F2B2CFD9C63574D /* Pods-ganymede-ganymedeUITests.debug.xcconfig */,
+				4EA598547287A3848158F4A2 /* Pods-ganymede-ganymedeUITests.release.xcconfig */,
+				8CCDF89C0227154EFD0E61F6 /* Pods-ganymedeTests.debug.xcconfig */,
+				66E02AE9E65F1DB719760BCF /* Pods-ganymedeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D139E6D32A0E7699008D5231 /* Build configuration list for PBXNativeTarget "ganymede" */;
 			buildPhases = (
+				2DFB2F1AD38D5218C6B115CE /* [CP] Check Pods Manifest.lock */,
 				D139E6AB2A0E7698008D5231 /* Sources */,
 				D139E6AC2A0E7698008D5231 /* Frameworks */,
 				D139E6AD2A0E7698008D5231 /* Resources */,
+				662AC4FA8963D254A5C05535 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D139E6D62A0E7699008D5231 /* Build configuration list for PBXNativeTarget "ganymedeTests" */;
 			buildPhases = (
+				FD92ADE54DE827D51E9AC861 /* [CP] Check Pods Manifest.lock */,
 				D139E6BB2A0E7699008D5231 /* Sources */,
 				D139E6BC2A0E7699008D5231 /* Frameworks */,
 				D139E6BD2A0E7699008D5231 /* Resources */,
@@ -169,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D139E6D92A0E7699008D5231 /* Build configuration list for PBXNativeTarget "ganymedeUITests" */;
 			buildPhases = (
+				6EA25AFE5C9577C4392617CD /* [CP] Check Pods Manifest.lock */,
 				D139E6C52A0E7699008D5231 /* Sources */,
 				D139E6C62A0E7699008D5231 /* Frameworks */,
 				D139E6C72A0E7699008D5231 /* Resources */,
+				4DEC8E46A820EADD988377BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +296,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DFB2F1AD38D5218C6B115CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ganymede-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DEC8E46A820EADD988377BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ganymede-ganymedeUITests/Pods-ganymede-ganymedeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ganymede-ganymedeUITests/Pods-ganymede-ganymedeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ganymede-ganymedeUITests/Pods-ganymede-ganymedeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		662AC4FA8963D254A5C05535 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ganymede/Pods-ganymede-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ganymede/Pods-ganymede-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ganymede/Pods-ganymede-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA25AFE5C9577C4392617CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ganymede-ganymedeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD92ADE54DE827D51E9AC861 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ganymedeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D139E6AB2A0E7698008D5231 /* Sources */ = {
@@ -411,6 +559,7 @@
 		};
 		D139E6D42A0E7699008D5231 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A59EB8269B936F6FF8C3390F /* Pods-ganymede.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -425,6 +574,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,6 +582,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.dmendoza.ganymede;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,6 +593,7 @@
 		};
 		D139E6D52A0E7699008D5231 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF8FD5906CDA714BBAF4689 /* Pods-ganymede.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +608,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,6 +616,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.dmendoza.ganymede;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,6 +627,7 @@
 		};
 		D139E6D72A0E7699008D5231 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCDF89C0227154EFD0E61F6 /* Pods-ganymedeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +648,7 @@
 		};
 		D139E6D82A0E7699008D5231 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E02AE9E65F1DB719760BCF /* Pods-ganymedeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,8 +669,8 @@
 		};
 		D139E6DA2A0E7699008D5231 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8700DE31F2B2CFD9C63574D /* Pods-ganymede-ganymedeUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P3RZR23WSJ;
@@ -527,8 +687,8 @@
 		};
 		D139E6DB2A0E7699008D5231 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA598547287A3848158F4A2 /* Pods-ganymede-ganymedeUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P3RZR23WSJ;
